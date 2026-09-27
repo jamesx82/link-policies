@@ -1,0 +1,23 @@
+html{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}body{margin:0;background:#000;color:#fff}
+body:has(.link-policy){background:#000;color:#fff}
+.link-policy{box-sizing:border-box;max-width:840px;margin:0 auto;padding:24px clamp(16px,5vw,40px) max(40px,env(safe-area-inset-bottom));background:#000;color:#f5f6f8;font-size:1rem;line-height:1.7;overflow-wrap:anywhere}
+.link-policy *{box-sizing:border-box}
+.link-policy .policy-header{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:28px}
+.link-policy .policy-header img{display:block;object-fit:contain}
+.link-policy nav a,.link-policy footer a{display:inline-block;padding:8px 0}
+.link-policy .policy-header nav,.link-policy .policy-footer{display:flex;gap:20px;flex-wrap:wrap}
+.link-policy h1{font-size:clamp(1.8rem,6vw,2.5rem);line-height:1.2;margin:0 0 16px;color:#fff}
+.link-policy h2{font-size:1.3rem;line-height:1.4;margin:0 0 12px;color:#fff}
+.link-policy p,.link-policy li{color:#d4d8e0}
+.link-policy p{margin:0 0 16px}
+.link-policy a{color:#8dc0ff;text-decoration:underline;text-underline-offset:3px}
+.link-policy a:focus-visible{outline:3px solid #8dc0ff;outline-offset:4px;border-radius:2px}
+.link-policy ul{padding-left:24px;margin:0 0 16px}.link-policy li{margin-bottom:8px}
+.link-policy .policy-draft{background:#151c29;border:1px solid #577ba7;border-radius:14px;padding:20px;margin:24px 0}
+.link-policy .policy-draft strong{color:#b9d8ff}.link-policy .policy-draft p{margin:8px 0 0}
+.link-policy .policy-contents{border-bottom:1px solid #383d47;padding-bottom:16px;margin:24px 0 32px}
+.link-policy section{margin:0 0 36px;scroll-margin-top:20px}
+.link-policy .owner-review{border-left:3px solid #78b4ff;padding:10px 16px;background:#12161d}
+.link-policy .policy-footer{border-top:1px solid #383d47;padding-top:20px}
+.link-policy .policy-skip{position:absolute;left:-10000px;top:auto}.link-policy .policy-skip:focus{position:static;display:block;padding:12px}
+@media(max-width:430px){.link-policy .policy-header nav{gap:16px}.link-policy .policy-draft{padding:16px}}
